@@ -45,12 +45,12 @@ function Home() {
             <p>MIAMI, FL <br />33137</p>
         </div>
         </div>
-        <div className="w-full text-white px-7 pb-10 border-b-[4px] border-white">
+        <div className="w-full text-white px-7 pb-10 border-b-[2px] border-white">
         <h1 className="font-medium text-xl md:text-2xl lg:text-4xl">We partner with brands and artists to create incredible content. Our roster boasts a plethora of talented directors, photographers, producers, editors, 3-D and graphics artists who collaborate in unison to complete projects skillfully & efficiently.</h1>
         </div>
         <div className="text-white bg-black px-7 py-3 uppercase w-full h-fit">
             <h3 className="text-xl md:text-2xl font-medium">team members</h3>
-            <ul className=" text-left py-2 w-full text-sm md:text-lg list-none">
+            <ul className="lists text-left py-2 w-full text-sm md:text-lg list-none">
                 <li>jmp</li>
                 <li>connor pritchard</li>
                 <li>azriel sanchez</li>

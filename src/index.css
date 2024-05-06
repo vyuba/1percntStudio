@@ -48,3 +48,6 @@ body{
   stroke-linejoin: round;
   stroke-linecap: round;
 }
+.lists{
+  list-style-type: ">>";
+}
