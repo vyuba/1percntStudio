@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  background-color: black;
+}
+
+.projects{
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  gap: 0;
+}
+
+.bg-image {
+  background-image: url('./src/assets/vlcsnap-2024-05-03-00h14m44s751.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: filter 0.5s;
+  filter: brightness(0.5);
+    &:hover{
+      filter: brightness(1);
+    }
+}
+
+.loaderPage {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  perspective: 500px;
+  background: rgb(18, 18, 18);
+}
+
+.item {
+  width: 70%;
+  overflow: hidden;
+  stroke: #fff;
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
