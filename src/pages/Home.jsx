@@ -1,7 +1,7 @@
 // import React from 'react'
 import Logo from "../assets/android-chrome-192x192.png";
 import Footer from "../components/Footer";
-import backgroundVideo from "../assets/2024_05_05_21_54_IMG_8198.MOV";
+import backgroundVideo from "../assets/background video.mp4";
 import ProjectCard from "../components/ProjectCard";
 // import { useState, useEffect } from "react";
 // import Loader from "../components/LoaderPage";

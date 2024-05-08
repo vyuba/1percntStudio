@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
   const style = {
-    backgroundImage: `url('./src/assets/images/${props.image}')`,
+    backgroundImage: `url('/images/${props.image}')`,
   }
   return (
-      <Link to={`/projectsPage/${props.id}`}>
+      <Link to={`/projects/${props.id}`}>
       <div style={style} className="bg-image object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end  h-[250px]">
         {/* <img className=" object-cover bg-cover bg-no-repeat bg-center" src={`/images/${props.image}`} alt="" /> */}
         <div className="uppercase pl-3 pb-2 text-white flex flex-col gap-3">

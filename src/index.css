@@ -48,7 +48,7 @@ body{
 }
 
 .item {
-  width: 70%;
+  width: 50%;
   overflow: hidden;
   stroke: #fff;
   stroke-width: 0.5;

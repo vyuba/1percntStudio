@@ -22,11 +22,11 @@ function App() {
   <Loader />
 ) : (
     <>
-        <>
+    <>
       <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
-          <Route path="/projectsPage/:id" element={<ProjectsPage/>} />
+          <Route path="/projects/:id" element={<ProjectsPage/>} />
       </Routes>
     </BrowserRouter>
     </>
