@@ -8,16 +8,23 @@ body{
   background-color: black;
 }
 
-.projects{
+/* .projects{
   grid-template-columns: repeat(auto-fit, minmax(160px, auto));
   gap: 0;
-}
+} */
 
-.bg-image {
+/* .bg-image {
   background-image: url('./src/assets/vlcsnap-2024-05-03-00h14m44s751.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: filter 0.5s;
+  filter: brightness(0.5);
+    &:hover{
+      filter: brightness(1);
+    }
+} */
+.bg-image {
   transition: filter 0.5s;
   filter: brightness(0.5);
     &:hover{
