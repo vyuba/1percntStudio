@@ -11,6 +11,7 @@ function Home() {
     return (
       <ProjectCard
         key={Projectdata.id}
+        id={Projectdata.id}
         video={Projectdata.video}
         image={Projectdata.poster}
         Artist={Projectdata.artist}

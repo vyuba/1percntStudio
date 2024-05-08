@@ -26,7 +26,7 @@ function App() {
       <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
-          <Route path="/ProjectsPage/:Id" element={<ProjectsPage/>} />
+          <Route path="/projectsPage/:id" element={<ProjectsPage/>} />
       </Routes>
     </BrowserRouter>
     </>
