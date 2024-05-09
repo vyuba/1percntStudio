@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Loader from "./components/LoaderPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectsPage from "./pages/ProjectsPage";
+import GalleryPage from "./pages/GalleryPage";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ function App() {
       <Routes>
           <Route index element={<Home />} />
           <Route path="/projects/:id" element={<ProjectsPage/>} />
+          <Route path="/gallery" element={<GalleryPage/>}  />
       </Routes>
     </BrowserRouter>
     </>

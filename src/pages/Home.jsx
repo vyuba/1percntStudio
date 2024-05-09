@@ -61,7 +61,7 @@ function Home() {
           <img className="w-16 md:block hidden" src={Logo} alt="" />
           <div className="flex items-start justify-between flex-col gap-[80px] md:flex-row">
             <h1 className="text-base md:text-xs text-left">
-              PAPERWORK STUDIO IS A MULTIMEDIA CREATIVE CONSULTING AND
+              1% STUDIO IS A MULTIMEDIA CREATIVE CONSULTING AND
               PRODUCTION COMPANY.
             </h1>
             <ul className="md:hidden block lg:text-2xl text-white font-medium">

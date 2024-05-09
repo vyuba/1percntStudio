@@ -58,3 +58,37 @@ body{
 .lists{
   list-style-type: ">>";
 }
+
+/*image gallery*/
+#gallery {
+  padding-inline: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+@media (max-width: 1200px) {
+  #gallery {
+    column-count: 3;
+    column-gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  #gallery {
+    column-count: 2;
+    column-gap: 20px;
+  }
+}
+@media (max-width: 600px) {
+  #gallery {
+    column-count: 1;
+  }
+}
+#gallery img,
+#gallery video {
+  width: 100%;
+  height: auto;
+  margin: 4% auto;
+  box-shadow: -3px 5px 15px #000;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
