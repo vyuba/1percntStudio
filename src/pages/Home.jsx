@@ -39,6 +39,7 @@ function Home() {
         autoPlay
         loop
         muted
+        controls = {false}
       >
         <source src={backgroundVideo} type="video/mp4" />
       </video>
