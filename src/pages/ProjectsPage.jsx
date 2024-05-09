@@ -30,6 +30,7 @@ function ProjectsPage() {
   return (
     <div>
       <Navbar />
+      <div className="pt-20">
       <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
         <iframe
           src={projectId.src}
@@ -42,11 +43,13 @@ function ProjectsPage() {
       <script src="https://player.vimeo.com/api/player.js"></script>
       <div className="px-7 py-10 text-white">
       <p className="text-white text-3xl font-bold">{projectId.song}</p>
-      <h1 className="text-white">{projectId.artist}</h1>
-      <p>{projectId.description}</p>
+      <h1 className="text-white font-medium pb-3">{projectId.artist}</h1>
+      <p><span className="capitalize font-bold">team: </span>{projectId.description}</p>
       </div>
-      <div className="projects px-3 pb-10 w-full bg-transparent grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))]">
+      <div className="projects px-4 pb-10 w-full bg-transparent grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))]">
         {projectCard}
+      </div>
+
       </div>
       <Footer/>
     </div>

@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
-    <div className="w-full h-20 flex items-cente0 justify-center bg-black">
+    <div className="w-full h-20 flex items-center fixed z-20 justify-center bg-black">
       <Link to="/">
-        <img className="w-16" src={Logo} alt="" />
+        <img className="w-20" src={Logo} alt="" />
         </Link>
     </div>
   )
