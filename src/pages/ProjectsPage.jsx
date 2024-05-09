@@ -49,15 +49,15 @@ function ProjectsPage() {
           </div>
           <h1 className="font-bold text-3xl text-center md:text-6xl pt-10">Gallery</h1>
           <div id="gallery" className="gallery py-9">
-            <img src={`/images/${projectId.image1}`} alt="" />
-            <img src={`/images/${projectId.image2}`} alt="" />
-            <img src={`/images/${projectId.image3}`} alt="" />
-            <img src={`/images/${projectId.image4}`} alt="" />
-            <img src={`/images/${projectId.image5}`} alt="" />
-            <img src={`/images/${projectId.image6}`} alt="" />
-            <img src={`/images/${projectId.image7}`} alt="" />
-            <img src={`/images/${projectId.image8}`} alt="" />
-            <img src={`/images/${projectId.image9}`} alt="" />
+            <img src={`/images${projectId.image2}`} alt="" />
+            <img src={`/images${projectId.image3}`} alt="" />
+            <img src={`/images${projectId.image4}`} alt="" />
+            <img src={`/images${projectId.image5}`} alt="" />
+            <img src={`/images${projectId.image6}`} alt="" />
+            <img src={`/images${projectId.image7}`} alt="" />
+            <img src={`/images${projectId.image8}`} alt="" />
+            <img src={`/images${projectId.image9}`} alt="" />
+            <img src={`/images${projectId.image1}`} alt="" />
           </div>
         </div>
         ) : (
