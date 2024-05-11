@@ -92,12 +92,12 @@ function Home() {
         <div className="text-white bg-black px-7 py-3 uppercase w-full h-fit">
           <h3 className="text-lg md:text-2xl font-medium">team members</h3>
           <ul className="lists text-left flex justify-end gap-7 py-2 w-full text-sm md:text-lg list-none">
-            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">xanderThegr8</a></li>
-            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">ayuba</a></li>
+            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">xander</a></li>
+            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Alexander preye</a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/visuals_xyz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">enzo</a></li>
           </ul>
         </div>
-        <div className="projects px-3 w-full bg-transparent md:bg-black grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))]">
+        <div className="projects px-3 w-full bg-transparent md:bg-black grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))]">
           {projectCard}
         </div>
         <Footer />

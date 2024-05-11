@@ -17,6 +17,7 @@ function ProjectsPage() {
       />
     );
   });
+  
   const { id } = useParams();
   const projectId = data.find((datas) => datas.id === parseInt(id));
   // const { artist } = projectId
@@ -41,7 +42,7 @@ function ProjectsPage() {
             style={style}
             className=" object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end  h-[700px] lg:h-[1000px]"
           >
-            <div className="About text-white font-medium uppercase px-7">
+            <div className="About text-white text-xl md:text-2xl py-10 font-semibold uppercase px-7">
                 <p>{projectId.song}</p>
                 <p>{projectId.artist}</p>
                 <p>{projectId.description}</p>

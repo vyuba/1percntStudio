@@ -12,9 +12,9 @@ function ProjectCard(props) {
       <Link to={`/projects/${props.id}`}>
       <div style={style} className="bg-image object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end  h-[250px]">
         {/* <img className=" object-cover bg-cover bg-no-repeat bg-center" src={`/images/${props.image}`} alt="" /> */}
-        <div className="uppercase pl-3 pb-2 text-white flex flex-col gap-3">
-          <p className="text-xs text-white">{props.Artist}</p>
-          <p className="text-lg font-medium">&quot;{props.songName}&quot;</p>
+        <div className="pl-3 pb-2 text-white flex flex-col gap-3">
+          <p className="text-xs uppercase text-white">{props.Artist}</p>
+          <p className="text-lg capitalize font-medium">&quot;{props.songName}&quot;</p>
         </div>
       </div>
         </Link>

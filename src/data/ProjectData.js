@@ -1,7 +1,7 @@
 export const data = [
     {
         id : 1,
-        song:"COMMITMENT (MUSIC VIDEO)",
+        song:"commitment",
         artist: "CASH",
         description:"Directed by Pikture Styled by Ambitious Niyi Edited and Color graded by Xander Tech Support Next thought Media",
         src:"https://player.vimeo.com/video/890322258?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -12,7 +12,7 @@ export const data = [
     },
     {
         id : 2,
-        song:"KONTROLLER (VISUALIZER)",
+        song:"kontroller",
         artist: "BLAZE",
         description:"Directed & Edited by Xander Produced by Ayuba Alexander DOP - Ayomide Oredola Gaffer Gabriel Young Vixen - Models Lounge Mua - Celine Innocent Tech Support Nextthought Media Production Company - 1% Studios",
         src:"https://player.vimeo.com/video/943103937?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -23,7 +23,7 @@ export const data = [
     },
     {
         id : 3,
-        song:"COME UP (MUSIC VIDEO)",
+        song:"come up",
         artist: "DB",
         description:"Credits Directed & Edited by - Xander Producer - Bidemi Popson AD - Deji Omolaja Production Manager - Henry Onyedikachi DOP - Ebiama Abraham Colorist - Prince Akpa 3D & Vfx - Pixel Enzo Gaffer - Maxwell Ayeh BTS Photographer - Effiong Christopher PA1 - Abolarin Feranmi PA2 - Chibuike Mark Sound Design - 1percnt Fpv 1 - Femi Fala Fpv 2 - Stedi Eduvie Runner - Shabiolegbe Damilola Technical Support - Nextthought Media Production Company - J8 Agency",
         src:"https://player.vimeo.com/video/898290756?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -34,7 +34,7 @@ export const data = [
     },
     {
         id : 4,
-        song:"BU$T DOWN (BTS)",
+        song:"bust down",
         artist: "ZLATAN FT ASAKE",
         description:"Directed by Fawaz Filmed & Edited by Xander",
         src:"https://player.vimeo.com/video/910358739?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -45,7 +45,7 @@ export const data = [
     },
     {
         id : 5,
-        song:"FACE MY FEAR (MUSIC VIDEO)",
+        song:"face my fears",
         artist: "SMUUV",
         description:"DIRECTED & EDITED BY: XANDER DOP: AYOMIDE OREDOLA GAFFER: REUBEN ADAJI. UNA BALLET DANCER: OLAWALE OLAMIDE LOCATION MANAGER: TAMMY BROWN TECH SUPPORT: NEXT THOUGHT MEDIA PRODUCTION COMPANY: 1%",
         src:"https://player.vimeo.com/video/921818287?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -56,7 +56,7 @@ export const data = [
     },
     {
         id : 6,
-        song:"TIMELESS 23",
+        song:"Timeless 23",
         artist: "DAVIDO",
         description:"Filmed by Xander and Delethemenace Edited by Xander",
         src:"https://player.vimeo.com/video/942953189?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -67,7 +67,7 @@ export const data = [
     },
     {
         id : 7,
-        song:"FELA",
+        song:"Fela",
         artist: "African Proverb",
         description:" photography + Creative Direction: xanderthegr8 Models: crayvelli preciuosabari, studio: everynoun, production: godligram",
         src: "",
@@ -204,7 +204,7 @@ export const data = [
     },
     {
         id : 14,
-        song:"Krypt store",
+        song:"streetsouk",
         artist: "",
         description:"outfit: paraskinia, shot by: 1% studio, jewelry: julscollecton",
         src: "",
@@ -222,7 +222,7 @@ export const data = [
     },
     {
         id : 15,
-        song:"Krypt store",
+        song:"thisty",
         artist: "",
         description:"outfit: paraskinia, shot by: 1% studio, jewelry: julscollecton",
         src: "",
