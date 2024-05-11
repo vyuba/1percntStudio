@@ -81,23 +81,23 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="w-full text-white px-7 pb-10 border-b-[2px] border-white">
-          <h1 className="font-medium text-xl md:text-2xl lg:text-4xl">
+        <div className="w-full text-white px-7 pb-10 bg-black md:bg-transparent py-7  border-b-[2px] border-white">
+          <h1 className="font-regular text-xl md:text-2xl lg:text-4xl">
             We partner with brands and artists to create incredible content. Our
             roster boasts a plethora of talented directors, photographers,
             producers, editors, 3-D and graphics artists who collaborate in
             unison to complete projects skillfully & efficiently.
           </h1>
         </div>
-        <div className="text-white bg-black px-7 py-3 uppercase w-full h-fit">
-          <h3 className="text-lg md:text-2xl font-medium">team members</h3>
-          <ul className="lists text-left flex justify-end gap-7 py-2 w-full text-sm md:text-lg list-none">
-            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">xander</a></li>
-            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Alexander preye</a></li>
-            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/visuals_xyz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">enzo</a></li>
+        <div className="text-white bg-transparent md:bg-black px-7 py-3 uppercase w-full h-fit">
+          <h3 className="text-lg hidden md:block md:text-2xl font-medium">team members</h3>
+          <ul className="lists flex flex-col md:flex-row justify-start md:justify-end gap-2 py-2 w-full text-sm md:text-lg list-none">
+            <li  className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>xander</p></a></li>
+            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>Alexander preye</p></a></li>
+            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/visuals_xyz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><p>Mbata Enzo</p></a></li>
           </ul>
         </div>
-        <div className="projects px-3 w-full bg-transparent md:bg-black grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))]">
+        <div className="projects px-3 w-full bg-transparent md:bg-black grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))]">
           {projectCard}
         </div>
         <Footer />

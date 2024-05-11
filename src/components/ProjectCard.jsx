@@ -7,21 +7,28 @@ import { Link } from "react-router-dom";
 function ProjectCard(props) {
   const style = {
     backgroundImage: `url('/images/${props.image}')`,
-  }
+  };
   return (
-      <Link to={`/projects/${props.id}`}>
-      <div style={style} className="bg-image object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end  h-[250px]">
-        {/* <img className=" object-cover bg-cover bg-no-repeat bg-center" src={`/images/${props.image}`} alt="" /> */}
-        <div className="pl-3 pb-2 text-white flex flex-col gap-3">
-          <p className="text-xs uppercase text-white">{props.Artist}</p>
-          <p className="text-lg capitalize font-medium">&quot;{props.songName}&quot;</p>
+    <Link to={`/projects/${props.id}`}>
+      <div className="h-[250px]">
+        <div
+          style={style}
+          className="bg-image object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end h-full "
+        >
+          {/* <img className=" object-cover bg-cover bg-no-repeat bg-center" src={`/images/${props.image}`} alt="" /> */}
         </div>
+          <div className="pl-3 pb-2 relative bottom-16 text-white flex flex-col brightness-150 gap-1">
+            <p className="text-xs uppercase text-white">{props.Artist}</p>
+            <p className="text-lg capitalize font-medium">
+              &quot;{props.songName}&quot;
+            </p>
+          </div>
       </div>
-        </Link>
+    </Link>
   );
 }
 ProjectCard.propTypes = {
-  id : PropTypes.number,
+  id: PropTypes.number,
   Artist: PropTypes.string,
   songName: PropTypes.string,
   image: PropTypes.string,
