@@ -1,7 +1,7 @@
 // import React from 'react'
 import Logo from "../assets/android-chrome-192x192.png";
 import Footer from "../components/Footer";
-import backgroundVideo from "../assets/background video.mp4";
+// import backgroundVideo from "../assets/background video.mp4";
 import ProjectCard from "../components/ProjectCard";
 // import { useState, useEffect } from "react";
 // import Loader from "../components/LoaderPage";
@@ -41,7 +41,7 @@ function Home() {
         muted
         controls = {false}
       >
-        <source src={backgroundVideo} type="video/mp4" />
+        <source src="./images/background video.mp4" type="video/mp4" />
       </video>
 
       <div className="home relative z-10">

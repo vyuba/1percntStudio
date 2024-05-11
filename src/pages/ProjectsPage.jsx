@@ -14,6 +14,11 @@ function ProjectsPage() {
   //   window.scrollTo(0, 0); // Scroll to top on page load
   // }, [history]); // Run when the history changes (i.e., on page load)
 
+  const scroll = ()=>{
+    document.body.scrollTo({top:0, behavior:"smooth"})
+  }
+  scroll()
+
   const projectCard = data.map((Projectdata) => {
     return (
       <ProjectCard
