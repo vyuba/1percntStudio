@@ -49,10 +49,14 @@ function Home() {
           <img className="w-16 fixed -z-10 md:hidden" src={Logo} alt="" />
           <ul className="hidden md:block lg:text-2xl text-white font-medium text-right">
             <li className="hover:text-yellow-400">
+              <a href="mailto:1percentevryday@gmail.com?subject=Your%20Subject&body=Your%20Message">
               <p className="text-base font-light lg:text-3xl md:text-lg">1percentevryday@gmail.com</p>
+              </a>
             </li>
             <li className="hover:text-yellow-400">
+              <a href="https://www.instagram.com/1.percnt/?utm_source=ig_web_button_share_sheet">
               <p className="text-base font-light lg:text-3xl md:text-lg">@1.percnt</p>
+              </a>
             </li>
           </ul>
         </div>
@@ -64,10 +68,12 @@ function Home() {
             </h1>
             <ul className="md:hidden lg:text-2xl grid gap-2 text-white font-medium">
               <li className="hover:text-yellow-400">
+                <a href="mailto:1percentevryday@gmail.com?subject=Your%20Subject&body=Your%20Message">
                 <p className="text-sm font-light">1percentevryday@gmail.com</p>
+                </a>
               </li>
               <li className="hover:text-yellow-400">
-                <p className="text-sm font-light">@1.percnt</p>
+                <a href="https://www.instagram.com/1.percnt/?utm_source=ig_web_button_share_sheet"><p className="text-sm font-light">@1.percnt</p></a>
               </li>
             </ul>
             <p className="text-[11px] md:text-sm font-light">
