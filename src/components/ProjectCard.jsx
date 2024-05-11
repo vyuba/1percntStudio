@@ -8,9 +8,12 @@ function ProjectCard(props) {
   const style = {
     backgroundImage: `url('/images/${props.image}')`,
   };
+  const scroll = ()=>{
+    document.body.scrollTo({top:0, behavior:"smooth"})
+  }
   return (
     <Link to={`/projects/${props.id}`}>
-      <div className="h-[180px] sm:h-[200px] md:h-[300px]">
+      <div onClick={scroll} className="h-[180px] sm:h-[200px] md:h-[300px]">
         <div
           style={style}
           className="bg-image object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end h-full "

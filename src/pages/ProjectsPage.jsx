@@ -3,8 +3,17 @@ import { data } from "../data/ProjectData";
 import Navbar from "../components/Navbar";
 import ProjectCard from "../components/ProjectCard";
 import Footer from "../components/Footer";
+// import { useEffect } from 'react';
+// import { useHistory } from 'react-router-dom';
 
 function ProjectsPage() {
+
+  // const history = useHistory();
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0); // Scroll to top on page load
+  // }, [history]); // Run when the history changes (i.e., on page load)
+
   const projectCard = data.map((Projectdata) => {
     return (
       <ProjectCard

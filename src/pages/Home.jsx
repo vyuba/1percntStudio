@@ -49,10 +49,10 @@ function Home() {
           <img className="w-16 fixed -z-10 md:hidden" src={Logo} alt="" />
           <ul className="hidden md:block lg:text-2xl text-white font-medium text-right">
             <li className="hover:text-yellow-400">
-              <p className="text-base font-light lg:text-3xl md:text-lg">contact@paperwork.studio</p>
+              <p className="text-base font-light lg:text-3xl md:text-lg">1percentevryday@gmail.com</p>
             </li>
             <li className="hover:text-yellow-400">
-              <p className="text-base font-light lg:text-3xl md:text-lg"> @paperwork</p>
+              <p className="text-base font-light lg:text-3xl md:text-lg">@1.percnt</p>
             </li>
           </ul>
         </div>
@@ -62,17 +62,16 @@ function Home() {
             <h1 className="text-lg md:text-sm lg:text-base text-left font-light">
               1% Studio is a multimedia creative consulting and production company.
             </h1>
-            <ul className="md:hidden block lg:text-2xl text-white font-medium">
+            <ul className="md:hidden lg:text-2xl grid gap-2 text-white font-medium">
               <li className="hover:text-yellow-400">
-                <p className="text-base font-light">1percentevryday@gmail.com</p>
+                <p className="text-sm font-light">1percentevryday@gmail.com</p>
               </li>
               <li className="hover:text-yellow-400">
-                <p className="text-base font-light">@paperwork</p>
+                <p className="text-sm font-light">@1.percnt</p>
               </li>
             </ul>
-            <p className="text-xs md:text-sm font-light">
-              LAGOS, NG <br />
-              1000001
+            <p className="text-[11px] md:text-sm font-light">
+              LAGOS, NG
             </p>
           </div>
         </div>
