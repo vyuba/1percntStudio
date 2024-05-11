@@ -95,60 +95,60 @@ function ProjectsPage() {
           </div>
           <div>
             <p className="capitalize font-bold">team: </p>
-            <ul className="capitalize">
+            <ul className="capitalize font-medium">
             <li className={`${projectId.director =="" && ("hidden")}`}>
-            director: <a className={`underline`} href="">{projectId.director}</a>
+            director: <a className={``} href="">{projectId.director}</a>
             </li>
             <li className={`${projectId.producer =="" && ("hidden")}`}>
-            producer: <a className={`underline`} href="">{projectId.producer}</a>
+            producer: <a className={``} href="">{projectId.producer}</a>
             </li>
             <li className={`${projectId.editor =="" && ("hidden")}`}>
-            editor: <a className={`underline`} href="">{projectId.editor}</a>
+            editor: <a className={``} href="">{projectId.editor}</a>
             </li>
             <li className={`${projectId.colorist =="" && ("hidden")}`}>
-            colorist: <a className={`underline`} href="">{projectId.colorist}</a>
+            colorist: <a className={``} href="">{projectId.colorist}</a>
             </li>
             <li className={`${projectId.soundDesign =="" && ("hidden")}`}>
-            sound: <a className={`underline`} href="">{projectId.soundDesign}</a>
+            sound: <a className={``} href="">{projectId.soundDesign}</a>
             </li>
             <li className={`${projectId.models =="" && ("hidden")}`}>
-            models: <a className={`underline`} href="">{projectId.models}</a>
+            models: <a className={``} href="">{projectId.models}</a>
             </li>
             <li className={`${projectId["3DVfx"] =="" && ("hidden")}`}>
-            3DVfx: <a className={`underline`} href="">{projectId["3DVfx"]}</a>
+            3DVfx: <a className={``} href="">{projectId["3DVfx"]}</a>
             </li>
             <li className={`${projectId.productionManager =="" && ("hidden")}`}>
-            PM: <a className={`underline`} href="">{projectId.productionManager}</a>
+            PM: <a className={``} href="">{projectId.productionManager}</a>
             </li>
             <li className={`${projectId.BTSPhotographer =="" && ("hidden")}`}>
-            BTS photographer: <a className={`underline`} href="">{projectId.BTSPhotographer}</a>
+            BTS photographer: <a className={``} href="">{projectId.BTSPhotographer}</a>
             </li>
             <li className={`${projectId.studioRunner =="" && ("hidden")}`}>
-            Studio Runner: <a className={`underline`} href="">{projectId.studioRunner}</a>
+            Studio Runner: <a className={``} href="">{projectId.studioRunner}</a>
             </li>
             <li className={`${projectId.gaffer =="" && ("hidden")}`}>
-            gaffer: <a className={`underline`} href="">{projectId.gaffer}</a>
+            gaffer: <a className={``} href="">{projectId.gaffer}</a>
             </li>
             <li className={`${projectId.PA =="" && ("hidden")}`}>
-            PA1: <a className={`underline`} href="">{projectId.PA[0]}</a>
+            PA1: <a className={``} href="">{projectId.PA[0]}</a>
             </li>
             <li className={`${projectId.PA =="" && ("hidden")}`}>
-            PA2: <a className={`underline`} href="">{projectId.PA[1]}</a>
+            PA2: <a className={``} href="">{projectId.PA[1]}</a>
             </li>
             <li className={`${projectId.techSupport =="" && ("hidden")}`}>
-            tech support: <a className={`underline`} href="">{projectId.techSupport}</a>
+            tech support: <a className={``} href="">{projectId.techSupport}</a>
             </li>
             <li className={`${projectId.Fpv =="" && ("hidden")}`}>
-            Fpv: <a className={`underline`} href="">{projectId.Fpv[0]}</a>
+            Fpv: <a className={``} href="">{projectId.Fpv[0]}</a>
             </li>
             <li className={`${projectId.stylest =="" && ("hidden")}`}>
-            stylest: <a className={`underline`} href="">{projectId.stylest}</a>
+            stylest: <a className={``} href="">{projectId.stylest}</a>
             </li>
             <li className={`${projectId.DOP =="" && ("hidden")}`}>
-            DOP: <a className={`underline`} href="">{projectId.DOP}</a>
+            DOP: <a className={``} href="">{projectId.DOP}</a>
             </li>
             <li className={`${projectId.productionCompany =="" && ("hidden")}`}>
-            production company: <a className={`underline`} href="">{projectId.productionCompany}</a>
+            production company: <a className={``} href="">{projectId.productionCompany}</a>
             </li>
             </ul>
           </div>
