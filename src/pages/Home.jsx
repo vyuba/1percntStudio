@@ -45,44 +45,39 @@ function Home() {
       </video>
 
       <div className="home relative z-10">
-        <div className="w-full h-20 px-4 flex items-center justify-between md:justify-end bg-transparent">
-          <img className="w-16 md:hidden" src={Logo} alt="" />
-          <ul className="hidden md:block lg:text-2xl text-white font-medium">
+        <div className="w-full h-20 px-4 flex items-center justify-between md:justify-end bg-transparent md:mb-[400px] pt-7">
+          <img className="w-16 fixed -z-10 md:hidden" src={Logo} alt="" />
+          <ul className="hidden md:block lg:text-2xl text-white font-medium text-right">
             <li className="hover:text-yellow-400">
-              {" "}
-              <p>contact@paperwork.studio</p>{" "}
+              <p className="text-base font-light lg:text-3xl md:text-lg">contact@paperwork.studio</p>
             </li>
             <li className="hover:text-yellow-400">
-              {" "}
-              <p> @paperwork</p>
+              <p className="text-base font-light lg:text-3xl md:text-lg"> @paperwork</p>
             </li>
           </ul>
         </div>
-        <div className=" w-full px-7 text-white pt-[200px] pb-8">
+        <div className=" w-full px-7 text-white pt-[200px] pb-8 md:py-60">
           <img className="w-16 md:block hidden" src={Logo} alt="" />
           <div className="flex items-start justify-between flex-col gap-[80px] md:flex-row">
-            <h1 className="text-base md:text-xs text-left">
-              1% STUDIO IS A MULTIMEDIA CREATIVE CONSULTING AND
-              PRODUCTION COMPANY.
+            <h1 className="text-lg md:text-sm lg:text-base text-left font-light">
+              1% Studio is a multimedia creative consulting and production company.
             </h1>
             <ul className="md:hidden block lg:text-2xl text-white font-medium">
               <li className="hover:text-yellow-400">
-                {" "}
-                <p>1percentevryday@gmail.com</p>
+                <p className="text-base font-light">1percentevryday@gmail.com</p>
               </li>
               <li className="hover:text-yellow-400">
-                {" "}
-                <p>@paperwork</p>
+                <p className="text-base font-light">@paperwork</p>
               </li>
             </ul>
-            <p>
+            <p className="text-xs md:text-sm font-light">
               LAGOS, NG <br />
               1000001
             </p>
           </div>
         </div>
-        <div className="w-full text-white px-7 pb-10 bg-black md:bg-transparent py-7  border-b-[2px] border-white">
-          <h1 className="font-regular text-xl md:text-2xl lg:text-4xl">
+        <div className="w-full text-white px-7 pb-10 bg-black md:bg-transparent py-7 md:py-32  border-b-[2px] border-white">
+          <h1 className="font-light text-lg md:text-5xl">
             We partner with brands and artists to create incredible content. Our
             roster boasts a plethora of talented directors, photographers,
             producers, editors, 3-D and graphics artists who collaborate in
@@ -90,14 +85,14 @@ function Home() {
           </h1>
         </div>
         <div className="text-white bg-transparent md:bg-black px-7 py-3 uppercase w-full h-fit">
-          <h3 className="text-lg hidden md:block md:text-2xl font-medium">team members</h3>
-          <ul className="lists flex flex-col md:flex-row justify-start md:justify-end gap-2 py-2 w-full text-sm md:text-lg list-none">
+          <h3 className="text-base hidden md:block md:text-base font-medium">team members</h3>
+          <ul className="lists flex flex-col md:flex-row justify-start md:justify-end gap-2 md:gap-7 py-2 w-full text-sm list-none">
             <li  className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>xander</p></a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>Alexander preye</p></a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/visuals_xyz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><p>Mbata Enzo</p></a></li>
           </ul>
         </div>
-        <div className="projects px-3 w-full bg-transparent md:bg-black grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))]">
+        <div className="projects px-3 md:px-7 w-full bg-transparent md:bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {projectCard}
         </div>
         <Footer />
@@ -105,5 +100,5 @@ function Home() {
     </div>
   );
 }
-
+// grid md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))]
 export default Home;

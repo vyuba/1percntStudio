@@ -42,11 +42,17 @@ function ProjectsPage() {
             style={style}
             className=" object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end  h-[700px] lg:h-[1000px]"
           >
-            <div className="About text-white text-xl md:text-2xl py-10 font-medium capitalize px-7">
+            <ul className="About text-white text-xl md:text-2xl py-10 font-medium capitalize px-7">
                 <p>{projectId.song}</p>
                 <p>{projectId.artist}</p>
-                <p>{projectId.description}</p>
-            </div>
+                {/* <p>{projectId.description}</p> */}
+                {/* <li className={`${projectId.shotBy =="" && ("hidden")}`}>
+                Shot by: <a className={`underline`} href="">{projectId.shotBy}</a>
+                </li>
+                <li className={`${projectId.other =="" && ("hidden")}`}>
+                Studio: <a className={`underline`} href="">{projectId.other[0]}</a>
+                </li> */}
+            </ul>
           </div>
           <h1 className="font-bold text-3xl text-center md:text-6xl pt-10">Gallery</h1>
           <div id="gallery" className="gallery py-9">

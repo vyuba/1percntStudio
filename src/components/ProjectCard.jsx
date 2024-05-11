@@ -10,7 +10,7 @@ function ProjectCard(props) {
   };
   return (
     <Link to={`/projects/${props.id}`}>
-      <div className="h-[250px]">
+      <div className="h-[180px] sm:h-[200px] md:h-[300px]">
         <div
           style={style}
           className="bg-image object-cover bg-cover bg-no-repeat bg-center  bg-black flex justify-start items-end h-full "
@@ -18,8 +18,8 @@ function ProjectCard(props) {
           {/* <img className=" object-cover bg-cover bg-no-repeat bg-center" src={`/images/${props.image}`} alt="" /> */}
         </div>
           <div className="pl-3 pb-2 relative bottom-16 text-white flex flex-col brightness-150 gap-1">
-            <p className="text-xs uppercase text-white">{props.Artist}</p>
-            <p className="text-lg capitalize font-medium">
+            <p className="text-xs font-light uppercase text-white">{props.Artist}</p>
+            <p className="text-sm md:text-xl uppercase font-light md:font-semibold">
               &quot;{props.songName}&quot;
             </p>
           </div>
