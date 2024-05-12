@@ -2,28 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica'), url(/public/helvetica-255-webfont/Helvetica.woff) format(woff);
+}
 body{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-style: normal;
   background-color: black;
 }
-
-/* .projects{
-  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
-  gap: 0;
-} */
-
-/* .bg-image {
-  background-image: url('./src/assets/vlcsnap-2024-05-03-00h14m44s751.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: filter 0.5s;
-  filter: brightness(0.5);
-    &:hover{
-      filter: brightness(1);
-    }
-} */
+/* font-family: 'Helvetica', "Montserrat", sans-serif; */
 .bg-image {
   transition: filter 0.5s;
   filter: brightness(0.5);
@@ -48,7 +36,7 @@ body{
 }
 
 .item {
-  width: 50%;
+  /* width: 50%; */
   overflow: hidden;
   stroke: #fff;
   stroke-width: 0.5;

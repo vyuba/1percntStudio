@@ -140,6 +140,9 @@ function ProjectsPage() {
             <li className={`${projectId.PA =="" && ("hidden")}`}>
             PA2: <a className={``} href="">{projectId.PA[1]}</a>
             </li>
+            <li className={`${projectId.mua =="" && ("hidden")}`}>
+            MUA: <a className={``} href="">{projectId.mua}</a>
+            </li>
             <li className={`${projectId.techSupport =="" && ("hidden")}`}>
             tech support: <a className={``} href="">{projectId.techSupport}</a>
             </li>

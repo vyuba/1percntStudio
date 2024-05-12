@@ -26,6 +26,7 @@ function Home() {
         autoPlay
         loop
         muted
+        playsInline
         controls = {false}
       >
         <source src="./images/background video.mp4" type="video/mp4" />
@@ -33,7 +34,7 @@ function Home() {
 
       <div className="home relative z-10">
         <div className="w-full h-20 px-4 flex items-center justify-between md:justify-end bg-transparent md:mb-[400px] pt-7">
-          <img className="w-16 fixed -z-10 md:hidden" src={Logo} alt="" />
+          <img className="w-[5rem] fixed -z-10 md:hidden" src={Logo} alt="" />
           <ul className="hidden md:block lg:text-2xl text-white font-medium text-right">
             <li className="hover:text-yellow-400">
               <a href="mailto:1percentevryday@gmail.com?subject=Your%20Subject&body=Your%20Message">
