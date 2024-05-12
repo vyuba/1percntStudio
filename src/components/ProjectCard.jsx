@@ -17,9 +17,9 @@ function ProjectCard(props) {
         >
           {/* <img className=" object-cover bg-cover bg-no-repeat bg-center" src={`/images/${props.image}`} alt="" /> */}
         </div>
-          <div className="pl-3 pb-2 relative bottom-16 text-white flex flex-col brightness-150 gap-1">
-            <p className="text-xs font-light uppercase text-white">{props.Artist}</p>
-            <p className="text-sm md:text-xl uppercase font-light md:font-semibold">
+          <div className="pl-3 pb-2 relative bottom-[5rem] text-white flex flex-col brightness-150 gap-4">
+            <p className="text-[12px] sm:text- font-light uppercase text-white">{props.Artist}</p>
+            <p className="text-[12px] sm:text-lg sm:font-bold md:text-xl uppercase font-light md:font-semibold">
               &quot;{props.songName}&quot;
             </p>
           </div>
