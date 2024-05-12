@@ -159,7 +159,7 @@ function ProjectsPage() {
           </div>
         </div>
 
-        <div className="projects px-4 pb-10 w-full bg-transparent grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))]">
+        <div className="projects px-3 md:px-7 w-full bg-transparent md:bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {projectCard}
         </div>
       </div>

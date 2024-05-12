@@ -19,22 +19,9 @@ function Home() {
       />
     );
   });
-  // const [loading, setLoading] = useState(true);
-  // useEffect(() => {
-  //   setLoading(true);
-  //   // Simulate loading time (you can replace this with actual data fetching)
-  //   // const timeout = () =>{
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 8000);
-  //   // }
-
-  //   // Clean up the timeout when the component unmounts
-  //   // timeout()
-  // }, []);
   return (
     <div>
-      <video
+      <video id="video"
         className="fixed top-0 left-0 w-full h-[100vh] object-cover -z-10"
         autoPlay
         loop
