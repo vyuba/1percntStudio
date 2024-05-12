@@ -99,13 +99,16 @@ function ProjectsPage() {
           <h1 className="text-white font-medium pb-3">{projectId.artist}</h1>
           </div>
           <div>
-            <p className="capitalize font-bold">team: </p>
+            <p className="capitalize font-bold">team</p>
             <ul className="capitalize font-medium">
             <li className={`${projectId.director =="" && ("hidden")}`}>
             director: <a className={``} href="">{projectId.director}</a>
             </li>
             <li className={`${projectId.producer =="" && ("hidden")}`}>
             producer: <a className={``} href="">{projectId.producer}</a>
+            </li>
+            <li className={`${projectId.shotBy =="" && ("hidden")}`}>
+            shot by: <a className={``} href="">{projectId.shotBy}</a>
             </li>
             <li className={`${projectId.editor =="" && ("hidden")}`}>
             editor: <a className={``} href="">{projectId.editor}</a>
