@@ -15,7 +15,7 @@ function ProjectsPage() {
   // }, [history]); // Run when the history changes (i.e., on page load)
 
   const scroll = ()=>{
-    document.body.scrollTo({top:0, behavior:"smooth"})
+    window.scrollTo({top:0, behavior:"smooth"})
   }
   scroll()
 
