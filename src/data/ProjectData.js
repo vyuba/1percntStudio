@@ -303,8 +303,8 @@ export const data = [
     },
     {
         id : 10,
-        song:"everynoun",
-        artist: "Krak is Kokaine",
+        song:"krak baby club",
+        artist: "campaign shoot",
         director:"",
         stylest:"",
         models:"",
