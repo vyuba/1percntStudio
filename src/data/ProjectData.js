@@ -341,8 +341,8 @@ export const data = [
     },
     {
         id : 11,
-        song:"hennessy",
-        artist: "",
+        song:"hennessy 2022 show",
+        artist: "artists",
         director:"",
         stylest:"",
         models:"",
@@ -380,7 +380,7 @@ export const data = [
     {
         id : 12,
         song:"julscollecton",
-        artist: "",
+        artist: "juls",
         director:"",
         stylest:"",
         models:"",
@@ -435,7 +435,7 @@ export const data = [
     {
         id : 13,
         song:"Krypt store",
-        artist: "",
+        artist: "ss22 campaign shoot",
         director:"",
         stylest:"",
         models:"",
@@ -474,7 +474,7 @@ export const data = [
     {
         id : 14,
         song:"streetsouk",
-        artist: "",
+        artist: "ss22",
         director:"",
         stylest:"",
         models:"",
@@ -512,7 +512,7 @@ export const data = [
     },
     {
         id : 15,
-        song:"thisty",
+        song:"thirsty",
         artist: "wizkid",
         director:"",
         stylest:"",
@@ -551,7 +551,7 @@ export const data = [
     },
     {
         id : 16,
-        song:"thisty",
+        song:"thirsty",
         artist: "models",
         director:"",
         stylest:"",
