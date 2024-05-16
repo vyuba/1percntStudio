@@ -85,6 +85,7 @@ function Home() {
             <li  className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>xander</p></a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>Alexander preye</p></a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/visuals_xyz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><p>Mbata Enzo</p></a></li>
+            <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/oluwagbenga__sg?igsh=N3A1OW12YjBpc2Ni"><p>Gbenga Adebayo</p></a></li>
           </ul>
         </div>
         <div className="projects px-3 md:px-7 w-full bg-transparent md:bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
