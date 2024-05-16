@@ -70,6 +70,7 @@ function ProjectsPage() {
           </div>
           <h1 className="font-bold text-3xl text-center md:text-6xl pt-10">Gallery</h1>
           <div id="gallery" className="gallery py-9">
+            <img src={`/images${projectId.image1}`} alt="" />
             <img src={`/images${projectId.image2}`} alt="" />
             <img src={`/images${projectId.image3}`} alt="" />
             <img src={`/images${projectId.image4}`} alt="" />
@@ -78,7 +79,6 @@ function ProjectsPage() {
             <img src={`/images${projectId.image7}`} alt="" />
             <img src={`/images${projectId.image8}`} alt="" />
             <img src={`/images${projectId.image9}`} alt="" />
-            <img src={`/images${projectId.image1}`} alt="" />
           </div>
         </div>
         ) : (
@@ -93,10 +93,13 @@ function ProjectsPage() {
           </div>
         )}
         <script src="https://player.vimeo.com/api/player.js"></script>
-        <div className={`px-7 py-10 text-white flex flex-col md:justify-between md:flex-row gap-4 md:gap-7 ${projectId.src == "" ? ("hidden"):("block") } `}>
+        <div className={`px-7 py-10 text-white flex flex-col md:justify-evenly md:flex-row gap-4 md:gap-7 ${projectId.src == "" ? ("hidden"):("block") } `}>
           <div>
-          <p className="text-white uppercase text-3xl md:text-6xl font-bold">{projectId.song}</p>
-          <h1 className="text-white font-medium pb-3">{projectId.artist}</h1>
+          <p className="text-white uppercase text-3xl md:text-6xl font-bold pb-4">{projectId.song}</p>
+          <div className="grid gap-2">
+          <p className="capitalize font-bold">artist/client:</p>
+          <h1 className="text-white text-sm font-medium pb-3">{projectId.artist}</h1>
+          </div>
           </div>
           <div>
             <p className="capitalize font-bold">team</p>

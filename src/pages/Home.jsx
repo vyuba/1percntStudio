@@ -33,43 +33,45 @@ function Home() {
       </video>
 
       <div className="home relative z-10">
-        <div className="w-full h-20 px-4 flex items-center justify-between md:justify-end bg-transparent md:mb-[400px] pt-7">
-          <img className="w-[5rem] fixed -z-10 md:hidden" src={Logo} alt="" />
-          <ul className="hidden md:block lg:text-2xl text-white font-medium text-right">
-            <li className="hover:text-yellow-400">
-              <a href="mailto:1percentevryday@gmail.com?subject=Your%20Subject&body=Your%20Message">
-              <p className="text-base font-light lg:text-3xl md:text-lg">1percentevryday@gmail.com</p>
-              </a>
-            </li>
-            <li className="hover:text-yellow-400">
-              <a href="https://www.instagram.com/1.percnt/?utm_source=ig_web_button_share_sheet">
-              <p className="text-base font-light lg:text-3xl md:text-lg">@1.percnt</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className=" w-full px-7 text-white pt-[200px] pb-8 md:py-60">
-          <img className="w-16 md:block hidden" src={Logo} alt="" />
-          <div className="flex items-start justify-between flex-col gap-[80px] md:flex-row">
-            <h1 className="text-lg md:text-sm lg:text-base text-left font-light">
-              1% Studio is a multimedia creative consulting and production company.
-            </h1>
-            <ul className="md:hidden lg:text-2xl grid gap-2 text-white font-medium">
+        <div className="heroVideo w-full h-dvh flex flex-col md:justify-between">
+          <div className="w-full h-20 px-4 flex items-center justify-between md:justify-end bg-transparent md:mb-[400px] pt-7">
+            <img className="w-[5rem] fixed -z-10 md:hidden" src={Logo} alt="" />
+            <ul className="hidden md:block lg:text-2xl text-white font-medium text-right">
               <li className="hover:text-yellow-400">
                 <a href="mailto:1percentevryday@gmail.com?subject=Your%20Subject&body=Your%20Message">
-                <p className="text-sm font-light">1percentevryday@gmail.com</p>
+                <p className="text-base font-light lg:text-3xl md:text-lg">1percentevryday@gmail.com</p>
                 </a>
               </li>
               <li className="hover:text-yellow-400">
-                <a href="https://www.instagram.com/1.percnt/?utm_source=ig_web_button_share_sheet"><p className="text-sm font-light">@1.percnt</p></a>
+                <a href="https://www.instagram.com/1.percnt/?utm_source=ig_web_button_share_sheet">
+                <p className="text-base font-light lg:text-3xl md:text-lg">@1.percnt</p>
+                </a>
               </li>
             </ul>
-            <p className="text-[11px] md:text-sm font-light">
-              LAGOS, NG
-            </p>
+          </div>
+          <div className=" w-full px-7 text-white pt-[200px] pb-7">
+            <img className="w-16 md:block hidden" src={Logo} alt="" />
+            <div className="flex items-start justify-between flex-col gap-[80px] md:flex-row">
+              <h1 className="text-lg md:text-sm uppercase lg:text-base text-left font-light">
+                1% Studio is a <br className="hidden md:block"/> multimedia creative consulting and production company.
+              </h1>
+              <ul className="md:hidden lg:text-2xl grid gap-2 text-white font-medium">
+                <li className="hover:text-yellow-400">
+                  <a href="mailto:1percentevryday@gmail.com?subject=Your%20Subject&body=Your%20Message">
+                  <p className="text-sm font-light">1percentevryday@gmail.com</p>
+                  </a>
+                </li>
+                <li className="hover:text-yellow-400">
+                  <a href="https://www.instagram.com/1.percnt/?utm_source=ig_web_button_share_sheet"><p className="text-sm font-light">@1.percnt</p></a>
+                </li>
+              </ul>
+              <p className="text-[11px] md:text-sm font-light">
+                LAGOS, NG
+              </p>
+            </div>
           </div>
         </div>
-        <div className="w-full text-white px-7 pb-10 bg-black md:bg-transparent py-7 md:py-32  border-b-[2px] border-white">
+        <div className="w-full text-white px-7 pb-10 bg-black md:bg-transparent py-7 md:py-32  border-b-[1px] md:mb-16 border-white">
           <h1 className="font-light text-lg md:text-5xl">
             We partner with brands and artists to create incredible content. Our
             roster boasts a plethora of talented directors, photographers,
@@ -79,7 +81,7 @@ function Home() {
         </div>
         <div className="text-white bg-transparent md:bg-black px-7 py-3 uppercase w-full h-fit">
           <h3 className="text-base hidden md:block md:text-base font-medium">team members</h3>
-          <ul className="lists flex flex-col md:flex-row justify-start md:justify-end gap-2 md:gap-7 py-2 w-full text-sm list-none">
+          <ul className="lists flex flex-col md:flex-row justify-start md:justify-end lg:justify-start lg:pl-7 gap-2 md:gap-7 py-2 w-full text-sm list-none">
             <li  className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/xander.thegr8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>xander</p></a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/vyuba_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <p>Alexander preye</p></a></li>
             <li className="hover:text-yellow-400 cursor-pointer"> <a href="https://www.instagram.com/visuals_xyz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><p>Mbata Enzo</p></a></li>
