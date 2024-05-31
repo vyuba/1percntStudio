@@ -132,7 +132,7 @@ function ProjectsPage() {
             PM: <a className={``} href="">{projectId.productionManager}</a>
             </li>
             <li className={`${projectId.BTSPhotographer =="" && ("hidden")}`}>
-            BTS photographer: <a className={``} href="">{projectId.BTSPhotographer}</a>
+            BTS: <a className={``} href="">{projectId.BTSPhotographer}</a>
             </li>
             <li className={`${projectId.studioRunner =="" && ("hidden")}`}>
             Studio Runner: <a className={``} href="">{projectId.studioRunner}</a>
