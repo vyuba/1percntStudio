@@ -3,28 +3,13 @@ export const data = [
         id : 1,
         song:"commitment",
         artist: "CASH",
-        director:"Pikture",
-        stylest:"Ambitious Niyi",
-        models:"",
-        mua:"",
-        editor:"Xander ",
-        shotBy:"",
-        muse:"",
-        other:[],
-        colorist:"Xander ",
-        soundDesign:"",
-        producer:"",
-        '3DVfx':"",
-        productionManager:"",
-        BTSPhotographer:"",
-        studioRunner:"",
-        techSupport:"Next thought Media",
-        gaffer:"",
-        PA:[""],
-        Fpv:[""],
-        productionCompany:"",
-        DOP:"",
-        description:"Directed by Pikture Styled by Ambitious Niyi Edited and Color graded by Xander Tech Support Next thought Media",
+        description:`
+        <li>director: <a href=''> Pikture</a></li>
+        <li>stylest: <a href=''> Ambitious Niyi</a></li>
+        <li>production company:<a href=''>@1% Studios</a></li>
+        <li>edited & colorist:<a href=''> @xander.thegr8 </a></li>
+        <li>techsupport:<a href=''> Nextthought media</a></li>
+        `,
         src:"https://player.vimeo.com/video/890322258?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "commitment banner.png",
@@ -36,27 +21,16 @@ export const data = [
         song:"kontroller",
         artist: "BLAZE",
         director:"Xander",
-        stylest:"",
-        models:"",
-        mua:"Models lounge",
-        editor:"Xander",
-        shotBy:"",
-        muse:"",
-        other:[],
-        colorist:"",
-        soundDesign:"",
-        producer:"Alexander preye",
-        '3DVfx':"",
-        productionManager:"",
-        BTSPhotographer:"",
-        studioRunner:"",
-        techSupport:"Next thought Media",
-        gaffer:"",
-        PA:[""],
-        Fpv:[""],
-        productionCompany:"1% studio",
-        DOP:"Ayomide Oredola",
-        description:"Directed & Edited by Xander Produced by Ayuba Alexander DOP - Ayomide Oredola Gaffer Gabriel Young Vixen - Models Lounge Mua - Celine Innocent Tech Support Nextthought Media Production Company - 1% Studios",
+        description:`
+        <li>director and editor: <a href=''>@xander.thegr8</a></li>
+        <li>production company:<a href=''>@1% Studios</a></li>
+        <li>producer:<a href=''> Ayuba Alexander</a></li>
+        <li>DOP:<a href=''> Ayomide Oredola </a></li>
+        <li>Vixen:<a href=''> Models Lounge</a></li>
+        <li>MUA:<a href=''> Celine Innocent</a></li>
+        <li>gaffer:<a href=''> Gabriel Young</a></li>
+        <li>techsupport:<a href=''> Nextthought media</a></li>
+        `,
         src:"https://player.vimeo.com/video/943103937?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "kontroller banner.png",
@@ -67,28 +41,23 @@ export const data = [
         id : 3,
         song:"come up",
         artist: "DB",
-        director:"Xander",
-        stylest:"",
-        models:"",
-        mua:"",
-        editor:"Xander",
-        shotBy:"",
-        muse:"",
-        other:[],
-        colorist:"Prince Akpa",
-        soundDesign:"1percnt studio",
-        producer:"Bidemi Popson",
-        '3DVfx':"Enzo",
-        productionManager:"Henry Onyedikachi",
-        BTSPhotographer:"Effiong Christopher",
-        studioRunner:"Shabiolegbe Damilola",
-        techSupport:"Nextthought Media",
-        gaffer:"",
-        PA:["Abolarin Feranmi","Chibuike Mark"],
-        Fpv:["Femi Fala"],
-        DOP:"",
-        productionCompany:"J8 Agency",
-        description:"Credits Directed & Edited by - Xander Producer - Bidemi Popson AD - Deji Omolaja Production Manager - Henry Onyedikachi DOP - Ebiama Abraham Colorist - Prince Akpa 3D & Vfx - Pixel Enzo Gaffer - Maxwell Ayeh BTS Photographer - Effiong Christopher PA1 - Abolarin Feranmi PA2 - Chibuike Mark Sound Design - 1percnt Fpv 1 - Femi Fala Fpv 2 - Stedi Eduvie Runner - Shabiolegbe Damilola Technical Support - Nextthought Media Production Company - J8 Agency",
+        description:`
+        <li>director and editor: <a href=''>@xander.thegr8</a></li>
+        <li>production company:<a href=''>@J8 Agency</a></li>
+        <li>producer:<a href=''> Bidemi Popson</a></li>
+        <li>AD:<a href=''> Deji Omolaja </a></li>
+        <li>DOP:<a href=''> Ebiama Abraham </a></li>
+        <li>production manager:<a href=''>Henry Onyedikachi</a></li>
+        <li>sound design:<a href=''> 1% design</a></li>
+        <li>BTSPhotographer:<a href=''>Effiong Christopher</a></li>
+        <li>colorist:<a href=''>Prince Akpa</a></li>
+        <li>PA:<a href=''> Abolarin Feranmi, Chibuike Mark</a></li>
+        <li>FPV:<a href=''> Femi Fala</a></li>
+        <li>3D & Vfx:<a href=''> Pixel Enzo</a></li>
+        <li>studio Runner:<a href=''> Shabiolegbe Damilola</a></li>
+        <li>gaffer:<a href=''> Maxwell Ayeh</a></li>
+        <li>techsupport:<a href=''> Nextthought media</a></li>
+        `,
         src:"https://player.vimeo.com/video/898290756?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "come up.png",
@@ -120,7 +89,10 @@ export const data = [
         Fpv:[""],
         productionCompany:"",
         DOP:"",
-        description:"Directed by Fawaz Filmed & Edited by Xander",
+        description:`
+        <li>director:<a href=''> @fawazgramz</a></li>
+        <li>editor:<a href=''>@xander.thegr8</a></li>
+        `,
         src:"https://player.vimeo.com/video/910358739?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "bust down banner.png",
@@ -131,28 +103,16 @@ export const data = [
         id : 5,
         song:"face my fears",
         artist: "SMUUV",
-        director:"xander",
-        stylest:"",
-        models:"olawale olamide",
-        mua:"",
-        editor:"xander",
-        shotBy:"",
-        muse:"",
-        other:[],
-        colorist:"",
-        soundDesign:"",
-        producer:"",
-        '3DVfx':"",
-        productionManager:"",
-        BTSPhotographer:"",
-        studioRunner:"",
-        techSupport:"Nextthought media",
-        gaffer:"reuben adaji",
-        PA:[""],
-        Fpv:[""],
-        productionCompany:"1% studio",
-        DOP:"ayomide oredola",
-        description:"DIRECTED & EDITED BY: XANDER DOP: AYOMIDE OREDOLA GAFFER: REUBEN ADAJI. UNA BALLET DANCER: OLAWALE OLAMIDE LOCATION MANAGER: TAMMY BROWN TECH SUPPORT: NEXT THOUGHT MEDIA PRODUCTION COMPANY: 1%",
+        description:`
+        <li>director:<a href=''>@xander.thegr8</a></li>
+        <li>production company:<a href=''>@1% studios</a></li>
+        <li>editor:<a href=''>@xander.thegr8</a></li>
+        <li>models:<a href=''>olawale olamide</a></li>
+        <li>DOP:<a href=''> ayomide oredola</a></li>
+        <li>Location manager:<a href=''> Tammy brown</a></li>
+        <li>gaffer:<a href=''> reuben adaji</a></li>
+        <li>techsupport:<a href=''> Nextthought media</a></li>
+        `,
         src:"https://player.vimeo.com/video/921818287?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "face my fear banner.png",
@@ -163,28 +123,9 @@ export const data = [
         id : 6,
         song:"Timeless 23",
         artist: "DAVIDO",
-        director:"",
-        stylest:"",
-        models:"",
-        mua:"",
-        editor:"xander",
-        shotBy:"xander & delathemenance",
-        muse:"",
-        other:[],
-        colorist:"",
-        soundDesign:"",
-        producer:"",
-        '3DVfx':"",
-        productionManager:"",
-        BTSPhotographer:"",
-        studioRunner:"",
-        techSupport:"",
-        gaffer:"",
-        PA:[""],
-        Fpv:[""],
-        productionCompany:"",
-        DOP:"",
-        description:"Filmed by Xander and Delethemenace Edited by Xander",
+        description:`
+        <li>editor:<a href=''>@xander.thegr8</a></li>
+        <li>filmed by:<a href=''> @xander.thegr8 and @Delethemenace</a></li>`,
         src:"https://player.vimeo.com/video/942953189?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "timeless.png",
@@ -195,28 +136,15 @@ export const data = [
         id : 7,
         song:"MEMORIES",
         artist: "PANDAMONAE & ZOANNA",
-        director:"& edited by Xander",
-        stylest:"",
-        models:"",
-        mua:"Boj Beauty",
-        editor:"",
-        shotBy:"",
-        muse:"",
-        other:[],
-        colorist:"",
-        soundDesign:"",
-        producer:"",
-        '3DVfx':"",
-        productionManager:"Pandamonae",
-        BTSPhotographer:"Precious Ofortube",
-        studioRunner:"",
-        techSupport:"",
-        gaffer:"",
-        PA:["Somto Raymond",],
-        Fpv:[""],
-        productionCompany:"1% Studios",
-        DOP:"",
-        description:"Location - Pixxel Factory Studios",
+        description:`
+        <li>Directed & edited:<a href=''>@xander.thegr8</a></li>
+        <li>producer :<a href=''>@3DVfx</a></li>
+        <li>PM:<a href=''> @Pandamonae</a></li>
+        <li>PA:<a href=''> @Somto Raymond</a></li>
+        <li>Producion company:<a href=''> @1% studios</a></li>
+        <li>Makeup: <a href="">@Boj Beauty</a></li>
+        <li>BTS: <a href="">@Precious Ofortube</a></li>
+        <li>location: <a href="">Pixxel Factory Studios</a></li>`,
         src:"https://player.vimeo.com/video/952413727?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         badge:"",
         poster: "thumb.jpg",
@@ -225,6 +153,44 @@ export const data = [
     },
     {
         id : 8,
+        song:"UPGRADED",
+        artist: "Joel Prodigee",
+        description:`
+        <li>Directed:<a href=''>@fawazgramz</a></li>
+        <li>Producers:<a href=''> @_tiwapearl @gabyarow</a></li>
+        <li>AD:<a href=''> @xander.thegr8</a></li>
+        <li>DOP:<a href=''> @eddies_ilution</a></li><li>Editor:<a href=''>@fawazgramz</a></li>
+        <li>VHS:<a href=''> @mowgliboygram</a></li>
+        <li>Lighting: <a href="https://www.instagram.com/silhouttepictures">@silhouttepictures</a></li>
+        <li>Makeup: <a href="https://www.instagram.com/.farian">@.farian</a></li>
+        <li>BTS: <a href="https://www.instagram.com/dotun_rager">@dotun_rager</a></li>
+        <li>Title: <a href="https://www.instagram.com/obedshotit.000">@obedshotit.000</a></li>
+        <li>Production manager: <a href="https://www.instagram.com/litsstefan">@litsstefan</a></li>
+        <li>Art design: <a href="https://www.instagram.com/marvin_uniq">@marvin_uniq</a></li>
+        <li>Stylist: <a href="https://www.instagram.com/officialswazzi">@officialswazzi</a></li>
+        <li>Tech support: <a href="https://www.instagram.com/abazee_productions">@abazee_productions</a></li>`,
+        src:"https://www.youtube.com/embed/ARrNvC33pdA",
+        badge:"",
+        poster: "thumb.jpg",
+        image1:"",
+        image2:"",
+    },
+    {
+        id : 9,
+        song:"Ma Jo Lo (Official Music Video)",
+        artist: "Midas The Jagaban",
+        description:`
+        <li>Directed and edited:<a href=''>@fawazgramz</a></li>
+        <li>VFX and Transitions:<a href=''> @xander.thegr8</a></li>
+        `,
+        src:"https://www.youtube.com/embed/4KZhInodLyY",
+        badge:"",
+        poster: "thumb.jpg",
+        image1:"",
+        image2:"",
+    },
+    {
+        id : 10,
         song:"Fela",
         artist: "African Proverb",
         director:"",
@@ -263,7 +229,7 @@ export const data = [
         image9:"/africanProverb/Snapinsta.app_380787779_18384457612062133_6605239399622746822_n_1080.jpg",
     },
     {
-        id : 9,
+        id : 11,
         song:"from lagos with love",
         artist: "+234 store",
         director:"",
@@ -298,7 +264,7 @@ export const data = [
         image7:"/234store/Snapinsta.app_336304814_574660794628831_3976698675769301388_n_1080.jpg",
     },
     {
-        id : 10,
+        id : 12,
         song:"crocs",
         artist: "cuppy crocs campaign",
         director:"",
@@ -334,7 +300,7 @@ export const data = [
         image8:"/crocs/Snapinsta.app_363409197_18196913827269556_8878269884850431517_n_1080.jpg",
     },
     {
-        id : 11,
+        id : 13,
         song:"krak baby club",
         artist: "campaign shoot",
         director:"",
@@ -372,7 +338,7 @@ export const data = [
         image8:"/everynoun/Snapinsta.app_364143665_18197656009269556_8424237355142547395_n_1080.jpg",
     },
     {
-        id : 12,
+        id : 14,
         song:"hennessy 2022 show",
         artist: "artists",
         director:"",
@@ -410,7 +376,7 @@ export const data = [
         image8:"",
     },
     {
-        id : 13,
+        id : 15,
         song:"julscollecton",
         artist: "juls",
         director:"",
@@ -465,7 +431,7 @@ export const data = [
     //     image8:"",
     // },
     {
-        id : 14,
+        id : 16,
         song:"Krypt store",
         artist: "ss22 campaign shoot",
         director:"",
@@ -504,7 +470,7 @@ export const data = [
         image9:"/krpt/Snapinsta.app_338030679_3498214613785934_485084230641112757_n_1080.jpg",
     },
     {
-        id : 15,
+        id : 17,
         song:"streetsouk",
         artist: "ss22",
         director:"",
@@ -543,7 +509,7 @@ export const data = [
         image9:"",
     },
     {
-        id : 16,
+        id : 18,
         song:"thirsty",
         artist: "wizkid",
         director:"",
@@ -582,7 +548,7 @@ export const data = [
         image9:"/wearthirsty/Snapinsta.app_339804285_952047352659928_2862603176965442996_n_1080.jpg",
     },
     {
-        id : 17,
+        id : 19,
         song:"thirsty",
         artist: "models",
         director:"",
@@ -621,7 +587,7 @@ export const data = [
         image9:"",
     },
     {
-        id : 18,
+        id : 20,
         song:"zlatan",
         artist: "zttwshop",
         director:"",

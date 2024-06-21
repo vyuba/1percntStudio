@@ -104,7 +104,7 @@ function ProjectsPage() {
           <div>
             <p className="capitalize font-bold">team</p>
             <ul className="capitalize font-medium">
-            <li className={`${projectId.director =="" && ("hidden")}`}>
+            {/* <li className={`${projectId.director =="" && ("hidden")}`}>
             director: <a className={``} href="">{projectId.director}</a>
             </li>
             <li className={`${projectId.producer =="" && ("hidden")}`}>
@@ -163,7 +163,9 @@ function ProjectsPage() {
             </li>
             <li className={`${projectId.productionCompany =="" && ("hidden")}`}>
             production company: <a className={``} href="">{projectId.productionCompany}</a>
-            </li>
+            </li> */}
+            <div dangerouslySetInnerHTML={{ __html: projectId.description }} />
+            {/* {projectId.description} */}
             </ul>
           </div>
         </div>
