@@ -171,12 +171,42 @@ export const data = [
         <li>Tech support: <a href="https://www.instagram.com/abazee_productions">@abazee_productions</a></li>`,
         src:"https://www.youtube.com/embed/ARrNvC33pdA",
         badge:"",
-        poster: "thumb.jpg",
+        poster: "vlcsnap-2024-06-25-19h23m18s049.png",
         image1:"",
         image2:"",
     },
     {
         id : 9,
+        song:"Maria (Official Video)",
+        artist: "Straffitti, Zlatan",
+        description:`
+        <li>Director: <a href="https://www.instagram.com/lordnelle">@lordnelle</a></li>
+        <li>Assistant Director: <a href="https://www.instagram.com/bidemipopson">@bidemipopson</a> for <a href="https://www.instagram.com/j8agency">@j8agency</a></li>
+        <li>Producer: <a href="https://www.instagram.com/thirstyworldwide">@thirstyworldwide</a></li>
+        <li>DOP: <a href="https://www.instagram.com/vahiddavids">@vahiddavids</a></li>
+        <li>Art Director: <a href="https://www.instagram.com/shalatheunicorn">@shalatheunicorn</a></li>
+        <li>Asst. Art Director: <a href="https://www.instagram.com/keamokhobo">@keamokhobo</a></li>
+        <li>Asst. Art Director 2: <a href="https://www.instagram.com/usad.jpeg">@usad.jpeg</a> & <a href="https://www.instagram.com/olo.lade">@olo.lade</a></li>
+        <li>1st AC: <a href="https://www.instagram.com/masedi.rayane">@masedi.rayane</a></li>
+        <li>Sound Design: <a href="https://www.instagram.com/itskenjay__">@itskenjay__</a></li>
+        <li>Gaffer: <a href="https://www.instagram.com/john_hensily">@john_hensily</a></li>
+        <li>Best Boy: <a href="https://www.instagram.com/director_koaho">@director_koaho</a></li>
+        <li>Editor: <a href="https://www.instagram.com/lordnelle">@lordnelle</a></li>
+        <li>Colorist: <a href="https://www.instagram.com/lordnelle">@lordnelle</a></li>
+        <li>VFX & Treatment: <a href="https://www.instagram.com/Xander.thegr8">@Xander.thegr8</a> for <a href="https://www.instagram.com/1.percnt">@1.percnt</a></li>
+        <li>Film Stills: <a href="https://www.instagram.com/keamokhobo">@keamokhobo</a></li>
+        <li>Photography: <a href="https://www.instagram.com/usad.jpeg">@usad.jpeg</a></li>
+        <li>Music Prod. By: <a href="https://www.instagram.com/remybaggins">@remybaggins</a> & <a href="https://www.instagram.com/gcl3f">@gcl3f</a></li>
+        <li>Music Mix: <a href="https://www.instagram.com/straffitti">@straffitti</a></li>
+        <li>Master: <a href="https://www.instagram.com/illythagreat">@illythagreat</a></li>`,
+        src:"https://www.youtube.com/embed/1F2Q9zEEDxAww.youtube.com/embed/ARrNvC33pdA",
+        badge:"",
+        poster: "vlcsnap-2024-07-03-23h42m19s996.png",
+        image1:"",
+        image2:"",
+    },
+    {
+        id : 10,
         song:"Ma Jo Lo (Official Music Video)",
         artist: "Midas The Jagaban",
         description:`
@@ -185,12 +215,12 @@ export const data = [
         `,
         src:"https://www.youtube.com/embed/4KZhInodLyY",
         badge:"",
-        poster: "thumb.jpg",
+        poster: "vlcsnap-2024-06-25-19h23m01s092.png",
         image1:"",
         image2:"",
     },
     {
-        id : 10,
+        id : 11,
         song:"Fela",
         artist: "African Proverb",
         director:"",
@@ -229,7 +259,7 @@ export const data = [
         image9:"/africanProverb/Snapinsta.app_380787779_18384457612062133_6605239399622746822_n_1080.jpg",
     },
     {
-        id : 11,
+        id : 12,
         song:"from lagos with love",
         artist: "+234 store",
         director:"",
@@ -264,7 +294,7 @@ export const data = [
         image7:"/234store/Snapinsta.app_336304814_574660794628831_3976698675769301388_n_1080.jpg",
     },
     {
-        id : 12,
+        id : 13,
         song:"crocs",
         artist: "cuppy crocs campaign",
         director:"",
@@ -300,7 +330,7 @@ export const data = [
         image8:"/crocs/Snapinsta.app_363409197_18196913827269556_8878269884850431517_n_1080.jpg",
     },
     {
-        id : 13,
+        id : 14,
         song:"krak baby club",
         artist: "campaign shoot",
         director:"",
@@ -338,7 +368,7 @@ export const data = [
         image8:"/everynoun/Snapinsta.app_364143665_18197656009269556_8424237355142547395_n_1080.jpg",
     },
     {
-        id : 14,
+        id : 15,
         song:"hennessy 2022 show",
         artist: "artists",
         director:"",
@@ -376,7 +406,7 @@ export const data = [
         image8:"",
     },
     {
-        id : 15,
+        id : 16,
         song:"julscollecton",
         artist: "juls",
         director:"",
@@ -431,7 +461,7 @@ export const data = [
     //     image8:"",
     // },
     {
-        id : 16,
+        id : 17,
         song:"Krypt store",
         artist: "ss22 campaign shoot",
         director:"",
@@ -470,7 +500,7 @@ export const data = [
         image9:"/krpt/Snapinsta.app_338030679_3498214613785934_485084230641112757_n_1080.jpg",
     },
     {
-        id : 17,
+        id : 18,
         song:"streetsouk",
         artist: "ss22",
         director:"",
@@ -509,7 +539,7 @@ export const data = [
         image9:"",
     },
     {
-        id : 18,
+        id : 19,
         song:"thirsty",
         artist: "wizkid",
         director:"",
@@ -548,7 +578,7 @@ export const data = [
         image9:"/wearthirsty/Snapinsta.app_339804285_952047352659928_2862603176965442996_n_1080.jpg",
     },
     {
-        id : 19,
+        id : 20,
         song:"thirsty",
         artist: "models",
         director:"",
@@ -587,7 +617,7 @@ export const data = [
         image9:"",
     },
     {
-        id : 20,
+        id : 21,
         song:"zlatan",
         artist: "zttwshop",
         director:"",
