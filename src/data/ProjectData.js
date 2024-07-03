@@ -154,21 +154,10 @@ export const data = [
     {
         id : 8,
         song:"UPGRADED",
-        artist: "Joel Prodigee",
+        artist: "JOEL PRODIGEE X MOD3ST",
         description:`
-        <li>Directed:<a href=''>@fawazgramz</a></li>
-        <li>Producers:<a href=''> @_tiwapearl @gabyarow</a></li>
-        <li>AD:<a href=''> @xander.thegr8</a></li>
-        <li>DOP:<a href=''> @eddies_ilution</a></li><li>Editor:<a href=''>@fawazgramz</a></li>
-        <li>VHS:<a href=''> @mowgliboygram</a></li>
-        <li>Lighting: <a href="https://www.instagram.com/silhouttepictures">@silhouttepictures</a></li>
-        <li>Makeup: <a href="https://www.instagram.com/.farian">@.farian</a></li>
-        <li>BTS: <a href="https://www.instagram.com/dotun_rager">@dotun_rager</a></li>
-        <li>Title: <a href="https://www.instagram.com/obedshotit.000">@obedshotit.000</a></li>
-        <li>Production manager: <a href="https://www.instagram.com/litsstefan">@litsstefan</a></li>
-        <li>Art design: <a href="https://www.instagram.com/marvin_uniq">@marvin_uniq</a></li>
-        <li>Stylist: <a href="https://www.instagram.com/officialswazzi">@officialswazzi</a></li>
-        <li>Tech support: <a href="https://www.instagram.com/abazee_productions">@abazee_productions</a></li>`,
+        <li>Directed and edited:<a href=''>@fawazgramz</a></li>
+        <li>VFX and Transitions:<a href=''> @xander.thegr8</a></li>`,
         src:"https://www.youtube.com/embed/ARrNvC33pdA",
         badge:"",
         poster: "vlcsnap-2024-06-25-19h23m18s049.png",
@@ -210,8 +199,19 @@ export const data = [
         song:"Ma Jo Lo (Official Music Video)",
         artist: "Midas The Jagaban",
         description:`
-        <li>Directed and edited:<a href=''>@fawazgramz</a></li>
-        <li>VFX and Transitions:<a href=''> @xander.thegr8</a></li>
+        <li>Directed:<a href=''>@fawazgramz</a></li>
+        <li>Producers:<a href=''> @_tiwapearl @gabyarow</a></li>
+        <li>AD:<a href=''> @xander.thegr8</a></li>
+        <li>DOP:<a href=''> @eddies_ilution</a></li><li>Editor:<a href=''>@fawazgramz</a></li>
+        <li>VHS:<a href=''> @mowgliboygram</a></li>
+        <li>Lighting: <a href="https://www.instagram.com/silhouttepictures">@silhouttepictures</a></li>
+        <li>Makeup: <a href="https://www.instagram.com/.farian">@.farian</a></li>
+        <li>BTS: <a href="https://www.instagram.com/dotun_rager">@dotun_rager</a></li>
+        <li>Title: <a href="https://www.instagram.com/obedshotit.000">@obedshotit.000</a></li>
+        <li>Production manager: <a href="https://www.instagram.com/litsstefan">@litsstefan</a></li>
+        <li>Art design: <a href="https://www.instagram.com/marvin_uniq">@marvin_uniq</a></li>
+        <li>Stylist: <a href="https://www.instagram.com/officialswazzi">@officialswazzi</a></li>
+        <li>Tech support: <a href="https://www.instagram.com/abazee_productions">@abazee_productions</a></li>
         `,
         src:"https://www.youtube.com/embed/4KZhInodLyY",
         badge:"",
