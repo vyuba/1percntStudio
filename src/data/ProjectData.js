@@ -221,6 +221,27 @@ export const data = [
     },
     {
         id : 11,
+        song:"MAKE WAY",
+        artist: "RUGER",
+        description:`
+        <li>Director and Editor: <a href="https://www.instagram.com/fawazgramz">@fawazgramz</a></li>
+        <li>DOP: Xander</li>
+        <li>Producer: <a href="https://www.instagram.com/daevees">@daevees</a></li>
+        <li>Featuring: <a href="https://www.instagram.com/isabella_ayomobi">@isabella_ayomobi</a></li>
+        <li>Title Card: <a href="https://www.instagram.com/bidemitata">@bidemitata</a></li>
+        <li>Makeup: <a href="https://www.instagram.com/_.farian_">@_.farian_</a></li>
+        <li>Art Design: <a href="https://www.instagram.com/a.beautiful.difference">@a.beautiful.difference</a></li>
+        <li>Cam Tech: <a href="https://www.instagram.com/temitayo_th">@temitayo_th</a></li>
+        <li>Studio: <a href="https://www.instagram.com/pixelparkstudios">@pixelparkstudios</a></li>
+        `,
+        src:"https://player.vimeo.com/video/954250146?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        badge:"",
+        poster: "thumb (1).jpg",
+        image1:"",
+        image2:"",
+    },
+    {
+        id : 12,
         song:"Fela",
         artist: "African Proverb",
         director:"",
@@ -259,7 +280,7 @@ export const data = [
         image9:"/africanProverb/Snapinsta.app_380787779_18384457612062133_6605239399622746822_n_1080.jpg",
     },
     {
-        id : 12,
+        id : 13,
         song:"from lagos with love",
         artist: "+234 store",
         director:"",
@@ -294,7 +315,7 @@ export const data = [
         image7:"/234store/Snapinsta.app_336304814_574660794628831_3976698675769301388_n_1080.jpg",
     },
     {
-        id : 13,
+        id : 14,
         song:"crocs",
         artist: "cuppy crocs campaign",
         director:"",
@@ -330,7 +351,7 @@ export const data = [
         image8:"/crocs/Snapinsta.app_363409197_18196913827269556_8878269884850431517_n_1080.jpg",
     },
     {
-        id : 14,
+        id : 15,
         song:"krak baby club",
         artist: "campaign shoot",
         director:"",
@@ -368,7 +389,7 @@ export const data = [
         image8:"/everynoun/Snapinsta.app_364143665_18197656009269556_8424237355142547395_n_1080.jpg",
     },
     {
-        id : 15,
+        id : 16,
         song:"hennessy 2022 show",
         artist: "artists",
         director:"",
@@ -406,7 +427,7 @@ export const data = [
         image8:"",
     },
     {
-        id : 16,
+        id : 17,
         song:"julscollecton",
         artist: "juls",
         director:"",
@@ -461,7 +482,7 @@ export const data = [
     //     image8:"",
     // },
     {
-        id : 17,
+        id : 18,
         song:"Krypt store",
         artist: "ss22 campaign shoot",
         director:"",
@@ -500,7 +521,7 @@ export const data = [
         image9:"/krpt/Snapinsta.app_338030679_3498214613785934_485084230641112757_n_1080.jpg",
     },
     {
-        id : 18,
+        id : 19,
         song:"streetsouk",
         artist: "ss22",
         director:"",
@@ -539,7 +560,7 @@ export const data = [
         image9:"",
     },
     {
-        id : 19,
+        id : 20,
         song:"thirsty",
         artist: "wizkid",
         director:"",
@@ -578,7 +599,7 @@ export const data = [
         image9:"/wearthirsty/Snapinsta.app_339804285_952047352659928_2862603176965442996_n_1080.jpg",
     },
     {
-        id : 20,
+        id : 21,
         song:"thirsty",
         artist: "models",
         director:"",
@@ -617,7 +638,7 @@ export const data = [
         image9:"",
     },
     {
-        id : 21,
+        id : 22,
         song:"zlatan",
         artist: "zttwshop",
         director:"",
