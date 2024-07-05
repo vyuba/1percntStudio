@@ -188,7 +188,7 @@ export const data = [
         <li>Music Prod. By: <a href="https://www.instagram.com/remybaggins">@remybaggins</a> & <a href="https://www.instagram.com/gcl3f">@gcl3f</a></li>
         <li>Music Mix: <a href="https://www.instagram.com/straffitti">@straffitti</a></li>
         <li>Master: <a href="https://www.instagram.com/illythagreat">@illythagreat</a></li>`,
-        src:"https://www.youtube.com/embed/1F2Q9zEEDxAww.youtube.com/embed/ARrNvC33pdA",
+        src:"https://www.youtube.com/embed/1F2Q9zEEDxA",
         badge:"",
         poster: "vlcsnap-2024-07-03-23h42m19s996.png",
         image1:"",
